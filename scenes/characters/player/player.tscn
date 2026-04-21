@@ -219,7 +219,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_blysn")
 }],
 "loop": true,
-"name": &"ideal_back",
+"name": &"idle_back",
 "speed": 3.0
 }, {
 "frames": [{
@@ -230,7 +230,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_ykrpk")
 }],
 "loop": true,
-"name": &"ideal_front",
+"name": &"idle_front",
 "speed": 3.0
 }, {
 "frames": [{
@@ -241,7 +241,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_4kqyw")
 }],
 "loop": true,
-"name": &"ideal_left",
+"name": &"idle_left",
 "speed": 3.0
 }, {
 "frames": [{
@@ -252,7 +252,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_ro20i")
 }],
 "loop": true,
-"name": &"ideal_right",
+"name": &"idle_right",
 "speed": 3.0
 }, {
 "frames": [{
@@ -396,8 +396,8 @@ radius = 8.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1671536629]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_omk8d")
-animation = &"ideal_front"
-autoplay = "ideal_front"
+animation = &"idle_left"
+autoplay = "idle_front"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=16744844]
 position = Vector2(0, -8)
